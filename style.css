@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#color-box {
+    width: 250px;
+    height: 200px;
+    background-color: royalblue;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#change-color-btn {
+    padding: 12px 24px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#change-color-btn:hover {
+    background-color: #444;
+}
+
+#change-color-btn:focus-visible {
+    outline: 3px solid #4389d6;
+    outline-offset: 3px;
+}
